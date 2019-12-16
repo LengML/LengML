@@ -1,41 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.leng.ml</id>
-    <title>冷夜</title>
-    <updated>2019-12-16T10:43:00.028Z</updated>
+    <title>冷</title>
+    <updated>2019-12-16T10:44:24.776Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.leng.ml"/>
     <link rel="self" href="https://www.leng.ml/atom.xml"/>
     <subtitle>Across the Great Wall we can reach every corner in the world.</subtitle>
     <logo>https://www.leng.ml/images/avatar.png</logo>
     <icon>https://www.leng.ml/favicon.ico</icon>
-    <rights>All rights reserved 2019, 冷夜</rights>
-    <entry>
-        <title type="html"><![CDATA[Linux vps开启bbr]]></title>
-        <id>https://www.leng.ml/post/bbr</id>
-        <link href="https://www.leng.ml/post/bbr">
-        </link>
-        <updated>2019-12-16T10:40:48.000Z</updated>
-        <content type="html"><![CDATA[<p>Centos,Debian,Ubuntu通用</p>
-<p>首先，先说一下开启方法。其实开启很简单，只需要三行命令即可：</p>
-<p>echo &quot;net.core.default_qdisc=fq&quot; &gt;&gt; /etc/sysctl.conf<br>
-echo &quot;net.ipv4.tcp_congestion_control=bbr&quot; &gt;&gt; /etc/sysctl.conf<br>
-sysctl -p<br>
-然后执行如下命令查看配置是否成功生效</p>
-<p>lsmod | grep bbr<br>
-输出→tcp_bbr 20480 0</p>
-<p>如果有如上类似输出，则证明Google BBR配置成功了。</p>
-<p>Debian/Ubuntu系统一般默认内核都是4.9以上所以只需上面3个命令就可以直接开启，CentOS 7一般默认内核没有4.9需要升级内核，可以使用秋水大佬的脚本(此链接需挂梯子)一键升级内核并开启bbr</p>
-<p>Centos7系统开启bbr<br>
-yum install wget<br>
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh &amp;&amp; chmod +x bbr.sh &amp;&amp; ./bbr.sh<br>
-安装完成后，脚本会提示需要重启 VPS，输入 y 并回车后重启。</p>
-<p>重启后执行如下命令查看配置是否成功生效</p>
-<p>lsmod | grep bbr<br>
-输出→tcp_bbr 20480 0</p>
-<p>如果有如上类似输出，则证明Google BBR配置成功了</p>
-]]></content>
-    </entry>
+    <rights>All rights reserved 2019, 冷</rights>
     <entry>
         <title type="html"><![CDATA[Hello]]></title>
         <id>https://www.leng.ml/post/hello</id>
