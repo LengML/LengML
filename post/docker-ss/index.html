@@ -1,22 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.leng.ml</id>
-    <title>冷雨</title>
-    <updated>2019-12-17T08:17:47.977Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://www.leng.ml"/>
-    <link rel="self" href="https://www.leng.ml/atom.xml"/>
-    <subtitle>Across the Great Wall we can reach every corner in the world.</subtitle>
-    <logo>https://www.leng.ml/images/avatar.png</logo>
-    <icon>https://www.leng.ml/favicon.ico</icon>
-    <rights>All rights reserved 2019, 冷雨</rights>
-    <entry>
-        <title type="html"><![CDATA[Docker-ss]]></title>
-        <id>https://www.leng.ml/post/docker-ss</id>
-        <link href="https://www.leng.ml/post/docker-ss">
-        </link>
-        <updated>2019-12-17T08:14:12.000Z</updated>
-        <content type="html"><![CDATA[<!-- wp:heading -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Docker-ss | 冷雨</title>
+<meta name="description" content="Across the Great Wall we can reach every corner in the world." />
+<link rel="shortcut icon" href="https://www.leng.ml/favicon.ico?v=1576570662022">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://www.leng.ml/styles/main.css">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://www.leng.ml">
+  <img class="avatar" src="https://www.leng.ml/images/avatar.png?v=1576570662022" alt="">
+  </a>
+  <h1 class="site-title">
+    冷雨
+  </h1>
+  <p class="site-description">
+    Across the Great Wall we can reach every corner in the world.
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+        <a href="https://twitter.com/KongTK8" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Docker-ss
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-12-17
+              </span>
+              <span>
+                5 min read
+              </span>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://www.leng.ml/post-images/docker-ss.PNG" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <!-- wp:heading -->
 <h2>docker-ss安装</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
@@ -231,62 +308,75 @@
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
 <p>原文：<a href="https://teddysun.com/536.html" target="_blank" rel="noreferrer noopener" aria-label="（在新窗口打开）">https://teddysun.com/536.html</a></p>
-<!-- /wp:paragraph -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[秋水逸冰ss-libev一键安装脚本]]></title>
-        <id>https://www.leng.ml/post/ss</id>
-        <link href="https://www.leng.ml/post/ss">
-        </link>
-        <updated>2019-12-17T08:12:25.000Z</updated>
-        <content type="html"><![CDATA[<!-- wp:heading -->
-<h2>Centos系统安装</h2>
-<!-- /wp:heading -->
-<!-- wp:code -->
-<pre class="wp-block-code"><code>yum install wget</code></pre>
-<!-- /wp:code -->
-<!-- wp:code -->
-<pre class="wp-block-code"><code>wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh</code></pre>
-<!-- /wp:code -->
-<!-- wp:code -->
-<pre class="wp-block-code"><code>chmod +x shadowsocks-libev.sh</code></pre>
-<!-- /wp:code -->
-<!-- wp:code -->
-<pre class="wp-block-code"><code>./shadowsocks-libev.sh 2>&amp;1 | tee shadowsocks-libev.log</code></pre>
-<!-- /wp:code -->
-<!-- wp:paragraph -->
-<p>创建内容依次为：密码、端口、协议</p>
 <!-- /wp:paragraph -->
-<!-- wp:separator -->
-<hr class="wp-block-separator"/>
-<!-- /wp:separator -->
-<!-- wp:heading -->
-<h2>Debian/Ubuntu系统安装</h2>
-<!-- /wp:heading -->
-<!-- wp:code -->
-<pre class="wp-block-code"><code>apt-get install wget</code></pre>
-<!-- /wp:code -->
-<!-- wp:code -->
-<pre class="wp-block-code"><code>wget --no-check-certificate -O shadowsocks-libev-debian.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian.sh</code></pre>
-<!-- /wp:code -->
-<!-- wp:code -->
-<pre class="wp-block-code"><code>chmod +x shadowsocks-libev-debian.sh</code></pre>
-<!-- /wp:code -->
-<!-- wp:code -->
-<pre class="wp-block-code"><code>
-./shadowsocks-libev-debian.sh 2>&amp;1 | tee shadowsocks-libev-debian.log</code></pre>
-<!-- /wp:code -->
-<!-- wp:paragraph -->
-<p>创建内容依次为：密码、端口、协议</p>
-<!-- /wp:paragraph -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello]]></title>
-        <id>https://www.leng.ml/post/hello</id>
-        <link href="https://www.leng.ml/post/hello">
-        </link>
-        <updated>2019-12-16T10:37:43.000Z</updated>
-        <content type="html"><![CDATA[<p>Hello!</p>
-]]></content>
-    </entry>
-</feed>
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://www.leng.ml/post/ss">
+              <h3 class="post-title">
+                秋水逸冰ss-libev一键安装脚本
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  By <a href="https://www.kongbai.me" target="_blank">KONGBAI.ME</a> | 
+  <a class="rss" href="https://www.leng.ml/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>
